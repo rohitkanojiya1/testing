@@ -83,13 +83,13 @@ p{
 
 .footer-title {
   float: left;
-  display: inline-block;
+  display: inline;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .bottom-menu {
-  display: none;
+  display: inline;
 }
 
 /*------Media Query-----*/
@@ -140,14 +140,26 @@ p{
     }
 
     .bottom-menu {
-      display: block;
+      display: inline;
       text-align: right;
     }
 
     .bottom-menu li {
       display: inline-block;
       padding-left: 10px;
+      list-style-type: none;
     }
+
+    .projects ul {
+     padding: 0;
+     list-style-type: none;
+}
+
+.footerLink {
+	display: inline;
+	float: right;
+}
+
 }
 
 @media(min-width: 1024px) {
