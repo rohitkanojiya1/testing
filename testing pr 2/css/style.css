@@ -82,7 +82,7 @@ p{
 }
 
 .footer-title {
-  float: left;
+
   display: inline;
   font-weight: bold;
   text-transform: uppercase;
@@ -90,6 +90,7 @@ p{
 
 .bottom-menu {
   display: inline;
+  float: right;
 }
 
 /*------Media Query-----*/
